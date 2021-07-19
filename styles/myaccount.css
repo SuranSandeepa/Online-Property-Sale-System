@@ -1,0 +1,106 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+
+body {
+  min-width: 1250px;
+}
+
+
+#mainSlider{
+	overflow: hidden;
+	width:100%;
+	min-width:60%;
+	height:1000px;
+	position: relative;
+}
+
+
+.top_center{
+	background-color:#DDDBEC;
+	position:absolute;
+	border-radius: 0.5rem; 
+	width: 98%;
+    height:93%;
+	top:5%;
+    left:1%;
+    right: 99%;
+    font-size: 20px;
+    display: block;
+	
+}
+
+
+.profilephoto{
+	padding-left:100px;
+}
+
+
+.inner_box{
+	position:absolute;
+	border-radius: 0.5rem; 
+	width: 73%;
+    height:80%;
+	top:13%;
+    left:23%;
+    right: 95%;
+    font-size: 20px;
+    display: block;
+}
+
+
+.box input[type=text] ,.box input[type=tel],.box input[type=email],.box input[type=password]{
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left:5%; 
+    margin-right:5%; 
+    font-size: 20px;
+  }
+
+
+.topic{
+    color: black;
+    font-family:sans-serif,'Arial Narrow Bold';
+    padding-left:100px;
+	font-size:40px;
+}
+
+
+.formtext{
+    margin-left:5.5%;
+	font-size:22px;
+	font-family:'Arial';
+}
+
+
+.reset_button {
+    background-color: #FFC733; 
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size:100%;
+    margin-left:1%;
+    margin-right:2%;
+    border-radius: 1rem;
+	width:25%;
+    margin-top:3%;
+  }
+
+
+  .submit_button {
+    background-color: #68EA1D; 
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    margin-left:40%;
+    margin-right:1%;
+	margin-top:3%;
+    border-radius: 1rem;
+	width:25%;
+    
+  }

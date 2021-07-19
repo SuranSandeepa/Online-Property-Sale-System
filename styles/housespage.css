@@ -1,0 +1,26 @@
+  .house-retrieve-data{
+      font-family: sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+  }
+
+  .house-retrieve-data th{
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      background-color: #4CAF50;
+      color: white;
+  }
+
+  .house-retrieve-data tr:hover{
+    background-color: #ddd;
+  }
+
+  .house-retrieve-data th{
+      border: 1px solid #ddd;
+      padding: 8px;
+  }
+  .house-retrieve-data td{
+      border: 1px solid #ddd;
+      padding: 8px;
+  }

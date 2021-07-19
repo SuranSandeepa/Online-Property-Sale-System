@@ -1,0 +1,169 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
+
+
+body {
+  max-height: 200px;
+  min-width: 1250px;
+}
+
+
+#mainSlider{
+	min-width: 40%;
+	width: 100%;
+	height: 35%;
+	overflow: hidden;
+}
+
+
+.allDiv{
+	display:block;
+	margin:auto;
+	position: relative;
+	width:100%;
+}
+
+
+#slideimg{
+	width:100%;
+	min-width:60%;
+	height:1000px;
+	filter: brightness(0.2);
+}
+
+
+.top_center{
+	position:absolute;
+	top:5%;
+	left:42%;
+	float:left;
+}
+
+
+#mainTitle{
+	float:center;
+	color:white;
+	margin-top:1px;
+	font-size:50px;
+	text-align:center;
+	font-weight: bold;
+	font-family: 'Lobster' ,'cursive';
+		
+}
+
+
+.top_left{
+	position:absolute;
+	width: 45%;
+    height:97%;
+	top: 30%;
+    left: 12%;
+    right: 50%;
+    font-size: 18px;
+    display: block;
+}
+
+
+#logo{
+	float:left;
+}
+
+#mainHead{
+	color:#40E0D0;
+	float:left;
+	padding-left:20px;
+	padding-top:6px;
+	font-size:25px;
+	font-family:'Alata';
+	font-weight: bold;
+}
+
+
+#descriction{
+	color:white;
+	font-size:20px;
+	font-family:'Alata';
+	padding-left:90px;
+}
+
+
+.top_right{
+	position:absolute;
+	border-radius: 0.5rem; 
+	width: 40%;
+    height:60%;
+	top: 22%;
+    left: 50%;
+    right: 95%;
+    font-size: 20px;
+    display: block;
+	background-color:#E2E1E1;
+}
+
+
+  .box input[type=text] ,.box input[type=tel],.box input[type=email]{
+    width: 85%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left:5%; 
+    margin-right:5%; 
+    font-size: 20px;
+  }
+
+
+.topic{
+    color: black;
+    font-family:sans-serif,'Arial Narrow Bold';
+    text-align: center;
+
+}
+
+
+.hline2{
+    width: 90%;
+    color: black;
+}
+
+
+textarea {
+	outline: none;
+	resize: none;
+	width: 85%;
+	padding: 12px;
+	border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left:5%; 
+    margin-right:5%; 
+    font-size: 20px;
+}
+
+
+.reset_button {
+    background-color: #FFC733; 
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size:100%;
+    margin-left:2%;
+    margin-right:2%;
+    border-radius: 1rem;
+	width:30%;
+    
+  }
+
+
+  .submit_button {
+    background-color: #68EA1D; 
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 100%;
+    margin-left:2%;
+    margin-right:2%;
+    border-radius: 1rem;
+	width:30%;
+    
+  }

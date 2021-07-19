@@ -1,0 +1,56 @@
+/* Post Ad Page Header Image */
+#post_ad_main_img{
+    width: 500px;
+    height: 600px;
+    display: block;
+    border: 5px solid greenyellow;
+}
+
+/* Selling Form */
+.feldsetForm{
+    background-color: black;
+    font-weight: bold;
+    color: white;
+}
+
+legend{
+    font-size: x-large;
+}
+
+/* Submit & Reset Buttons */
+.form_btn1{
+    background-color: #04AA6D;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+    width: 100%;
+}
+.form_btn1:hover {
+    color: white;
+  }
+
+.ad-form{
+    background:url("../images/indexBack.jpg");
+    width: auto;
+    height: 100%;
+}
+
+.ad-form-head-para{
+    color: white;
+}
+
+#ad-form-head-para1{
+    font-size: 40px;
+}
+#ad-form-head-para2{
+    font-size: 30px;
+}
+
+.ad-form-head-para:hover{
+    color: green;
+}

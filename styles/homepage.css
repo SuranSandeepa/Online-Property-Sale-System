@@ -1,0 +1,75 @@
+.homepage_back_img{
+  background: url("../images/Frame1.JPG");
+  max-width: auto;
+  height:auto;
+}
+.mainpara{
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+    font-size: 300%;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+
+.homepage_back_img p:hover{
+  color: green;
+}
+
+
+.home-bttn1{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.home-bttn1{
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+.home-bttn1:hover{
+  background-color: green;
+  color: white;
+}
+
+
+#Homepage_Mainimg{
+    max-width: 900px;
+    height: auto;
+}
+
+#home-js-txt1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 150%;
+    color: white;
+    font-weight: bolder;
+    font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+
+.home-js-para1{
+  /* background-color: black; */
+  border:10px 10px 5px;
+  margin: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.middletable{
+    width: 100%;
+}
+
+.img-link-p{
+  color: white;
+
+  /* background-color: lightslategray; */
+}
+
+

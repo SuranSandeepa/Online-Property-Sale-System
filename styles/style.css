@@ -1,0 +1,284 @@
+/* Common */
+body{
+    background-color: white;
+    margin: 0%;
+}
+
+/* Top NavigationBar */
+
+.TopNavigation{
+  background-color: #333;
+}
+.TopNavigation ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.TopNavigation li {
+    display: inline;
+    padding: 12px 14px ;
+    color: white;
+    text-align: center;  
+}
+
+.TopNavigation li a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family: Georgia;
+    font-size:small; 
+}
+
+.TopNavigation a:link{
+    color: white;
+    font-weight: bolder;
+}
+
+.TopNavigation a:hover{
+    color: rgb(44, 139, 0);
+}
+
+.li_left_C{
+    float: left;
+}
+.li_right_C{
+    float: right;
+}
+
+/*Header image styles*/
+.header_image
+{
+	width:100%;
+	height: auto;
+	padding-top:0px;
+}
+
+
+/*Navigation bar styles*/
+.SecNavBar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.SecNavBar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.SecNavBar a:hover {
+  background-color: white;
+  color: black;
+}
+
+.SecNavBar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/*SearchBar*/
+.SecNavBar .search-container{
+	float: right;
+}
+
+.SecNavBar input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.SecNavBar .search-container button{
+	float: right;
+	padding:6px 20px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background:white;
+	font-size: 17px;
+	border:none;
+	cursor: pointer;
+}
+
+.SecNavBar .search-container button:hover {
+  background: green;
+}
+
+@media screen and (max-width: 600px) {
+  .SecNavBar .search-container {
+    float: none;
+  }
+  .SecNavBar a, .SecNavBar input[type=text], .SecNavBar .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .SecNavBar input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+/* Footer */
+.footer{
+    background-color: #333;
+}
+
+.smallMainLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid greenyellow; 
+}
+
+/* footer table headers */
+.footerTable{
+    width: 100%;
+}
+.footer th{
+    font-size:25px;
+    padding: 20px 50px;
+    text-align: left;
+    color: white;
+    width: auto;
+}
+
+/* table data */
+footer td{
+    color: white;
+    padding: 20px 50px;
+    text-align: left;
+    width: auto;
+}
+
+
+.footLinks a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footLinks a:hover{
+    color: green;
+}
+
+.footLinks a.active{
+    color: rgb(0, 139, 97);
+}
+
+/* End Of webpage */
+#FootLine{
+    border: 1px solid black;
+    margin:0;
+}
+
+
+
+
+/* Minuka Nawodya's Loging & Register Page Css Code........................................................ */
+
+
+/* End Of webpage */
+#FootLine{
+  border: 1px solid black;
+  margin:0;
+}
+
+/*Login form styles*/		
+.form2{
+border-radius: 0px;
+  width: 50%;
+  margin-top: 0%;
+  font-size: 15px;
+  background-color:#F5F5F5;
+  border: 2px solid black;
+  background: rgba(0,0,0,0.4);
+color: gold ;
+}
+
+/*Form avatars styles*/		
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+top: 415px;
+left: calc(50% - 50px) ;
+}
+
+/*Login form styles*/
+.form2 input[type="text"], input[type="password"]{
+border: none;
+border-bottom: 1px  white;
+outline: none;
+height: 40px;
+color: black;
+font-size: 16px;
+}
+
+/*Login form "Forgot password?"styles*/	
+.forgot{
+float: right;
+margin-right:120px; 
+color: red;
+}
+
+/*Login form "Submit" button styles*/	
+.form2 input[type="submit"]{
+border: none;
+outline: none;
+height: 40px;
+width: 350px;
+background: #e6c619;
+color: #fff;
+font-size: 18px;
+border-radius: 50px
+}
+
+.form2 input[type="submit"]:hover{
+cursor: pointer;
+background: #ffc107;
+border-radius: 50px;
+color: #000;
+}
+
+/*registration form styles*/
+.form1{
+border-radius: 0px;
+  width: 50%;
+  margin-top: 0%;
+  font-size: 15px;
+  background-color: #F5F5F5;
+  border: 2px solid black;
+background: rgba(0,0,0,0.5);
+color: gold;
+align-items: center;
+}
+
+/*registration form styles*/
+.form1 input[type="text"], input[type="password"], input[type="radio"], textarea, input[type="date"]{
+border: none;
+border-bottom: 1px  white;
+outline: none;
+height: 40px;
+color: black;
+font-size: 16px;
+}
+
+.form1 input[type="text"]
+
+/*Registration form "Next" button styles*/	
+.next {
+
+float: right;
+margin-right:50px;
+margin-top: -25px;
+}
+
